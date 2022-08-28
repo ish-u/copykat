@@ -5,6 +5,8 @@ import FAQSection from "../components/Netflix/FAQSection";
 import Footer from "../components/Netflix/Footer";
 import MainSection from "../components/Netflix/MainSection";
 import WatchEverySection from "../components/Netflix/WatchEverySection";
+import "../styles/Netflix/Netflix.css";
+
 const Netflix = () => {
   return (
     <div className="font-netflix text-white bg-black h-screen w-full">

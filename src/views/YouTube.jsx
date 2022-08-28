@@ -1,6 +1,6 @@
 import NavBar from "../components/YouTube/NavBar";
 import MainArea from "../components/YouTube/MainArea";
-import "../styles/YouTube.css";
+import "../styles/YouTube/YouTube.css";
 
 const YouTube = () => {
   return (

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         netflix: ["NetflixSans", "sans-serif"],
+        overpass: ["Overpass"],
       },
     },
   },

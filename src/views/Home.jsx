@@ -10,6 +10,9 @@ const Home = () => {
       <span className="text-2xl font-mono my-2 underline">
         <Link to="netflix">/netflix</Link>
       </span>
+      <span className="text-2xl font-mono my-2 underline">
+        <Link to="anilist">/anilist</Link>
+      </span>
     </div>
   );
 };
