@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
 import Scroller from "./Scroller";
-
+import { useState } from "react";
 const categories = [
   { category: "TRENDING_DESC", name: "TRENDING NOW", status: "RELEASING" },
   {
@@ -16,6 +15,7 @@ const categories = [
 ];
 
 const Grid = () => {
+  const [grid, setGrid] = useState([]);
   return (
     <div className="lg:px-52">
       {categories.map((category, idx) => (
