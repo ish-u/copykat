@@ -2,7 +2,6 @@ import Grid from "../components/AniList/Grid";
 import LandingSection from "../components/AniList/LandingSection";
 import NavBar from "../components/AniList/NavBar";
 import SearchBar from "../components/AniList/SearchBar";
-import "../styles/AniList/AniList.css";
 
 const AniList = () => {
   return (
